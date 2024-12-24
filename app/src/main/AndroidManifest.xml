@@ -1,0 +1,79 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.shreya.flashcardlearningapp">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme_FlashcardLearningApp"
+        tools:targetApi="31">
+
+        <!-- Splash Activity -->
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Other Activities -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:theme="@style/Theme_FlashcardLearningApp" />
+
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="true"
+            android:label="Sign Up"
+            android:theme="@style/Theme_FlashcardLearningApp" />
+
+        <activity
+            android:name=".HomeActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme_FlashcardLearningApp" />
+
+        <!-- You can remove MainActivity if it's not required after login -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme_FlashcardLearningApp" />
+
+        <!-- Activity for Categories -->
+        <activity
+            android:name=".CategoriesActivity"
+            android:exported="true" />
+
+        <!-- Activity for Flashcards -->
+        <activity
+            android:name=".FlashcardsActivity"
+            android:exported="true" />
+
+
+
+        <!-- Settings Activity -->
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="true"
+            android:label="Settings"
+            android:theme="@style/Theme_FlashcardLearningApp" />
+
+        <!-- Chat Activity (Newly Added) -->
+        <activity
+            android:name=".ChatActivity"
+            android:exported="true"
+            android:theme="@style/Theme_FlashcardLearningApp" />
+
+    </application>
+
+</manifest>

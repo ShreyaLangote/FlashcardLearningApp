@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "954409575972",
+    "project_id": "flashcardapp-a3d36",
+    "storage_bucket": "flashcardapp-a3d36.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:954409575972:android:ddc074c57aefb76ac99ab1",
+        "android_client_info": {
+          "package_name": "com.shreya.flashcardlearningapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHwVZzzw0gSgBEtgRVSfenn44c5njxeJI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

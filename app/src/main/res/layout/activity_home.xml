@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Welcome message at the top -->
+    <TextView
+        android:id="@+id/welcomeMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Flashcard App"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"/>
+
+    <!-- Button for Flashcards -->
+    <Button
+        android:id="@+id/flashcardsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Flashcards"
+        android:layout_below="@id/welcomeMessage"
+        android:layout_marginTop="30dp"/>
+
+    <!-- Removed the Categories Button -->
+
+    <!-- Button for Chatbot -->
+    <Button
+        android:id="@+id/chatbotButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chat with Bot"
+        android:layout_below="@id/flashcardsButton"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Button for Settings -->
+    <Button
+        android:id="@+id/settingsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>

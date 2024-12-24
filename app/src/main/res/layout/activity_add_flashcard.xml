@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#f5f5f5">
+
+    <!-- Flashcard Title Input -->
+    <EditText
+        android:id="@+id/editTextFlashcardTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Flashcard Title"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:padding="12dp" />
+
+    <!-- Flashcard Content Input -->
+    <EditText
+        android:id="@+id/editTextFlashcardContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Flashcard Content"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:padding="12dp" />
+
+
+    <!-- Difficulty Level -->
+    <RadioGroup
+        android:id="@+id/radioGroupFlashcardDifficulty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+        <RadioButton
+            android:id="@+id/radioEasyFlashcard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Easy"
+            android:padding="8dp" />
+        <RadioButton
+            android:id="@+id/radioModerateFlashcard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Moderate"
+            android:padding="8dp" />
+        <RadioButton
+            android:id="@+id/radioDifficultFlashcard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Difficult"
+            android:padding="8dp" />
+    </RadioGroup>
+
+    <!-- Category Selection -->
+    <Spinner
+        android:id="@+id/spinnerFlashcardCategories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Subject Selection -->
+    <Spinner
+        android:id="@+id/spinnerFlashcardSubjects"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/buttonSaveFlashcard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Flashcard"
+        android:textSize="18sp"
+        android:backgroundTint="#007bff"
+        android:textColor="#fff" />
+
+</LinearLayout>
