@@ -21,7 +21,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/your-username/flashcard-learning-app.git
+git clone (https://github.com/ShreyaLangote/FlashcardLearningApp.git)
 Open the project in Android Studio.
 
 Build and run the project on an emulator or device.
